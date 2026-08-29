@@ -193,7 +193,7 @@ NeverLose.Scales = {
 	Mobile = UDim2.fromOffset(640,385),
 	Default = UDim2.fromOffset(640 , 480),
 	Large = UDim2.fromOffset(800 , 600),
-	Auto = UDim2.fromScale(0.5, 0.8)
+	Auto = UDim2.fromScale(0.8, 0.8)
 };
 
 NeverLose.IconColor = Color3.fromRGB(255, 255, 255);

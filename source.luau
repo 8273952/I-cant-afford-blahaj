@@ -192,7 +192,8 @@ NeverLose.Scales = {
 	Small = UDim2.fromOffset(540,380),
 	Mobile = UDim2.fromOffset(640,385),
 	Default = UDim2.fromOffset(640 , 480),
-	Large = UDim2.fromOffset(800 , 600)
+	Large = UDim2.fromOffset(800 , 600),
+	Auto = UDim2.fromScale(0.5, 0.8)
 };
 
 NeverLose.IconColor = Color3.fromRGB(255, 255, 255);
@@ -207,7 +208,7 @@ NeverLose.GlobalLogo = "rbxassetid://120358385035996";
 NeverLose.ImageColorMapping = "rbxassetid://4155801252";
 
 if getcustomasset then
-	local link = "https://github.com/4lpaca-pin/NeverLose/blob/main/assets/%s?raw=true";
+	local link = "https://github.com/8273952/I-cant-afford-blahaj/blob/main/assets/%s?raw=true";
 	local dir = 'NLAssets';
 
 	if not isfolder(dir) then

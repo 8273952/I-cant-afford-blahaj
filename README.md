@@ -1,7 +1,6 @@
 <img width="805" height="545" alt="Screenshot 2026-01-21 234216" src="https://github.com/user-attachments/assets/fafedffd-5762-498e-87e3-2deec7718a7b" />
 
-# Neverlose
-Neverlose Recode UI for Roblox
+Neverlose Recode UI for Roblox (Modded)
 
 ## Icons?
 - Press Win + R
@@ -17,7 +16,7 @@ done
 ```lua
 -- U CAN USE TS IN UR ROBLOX GAME --
 
-local NeverLose = loadstring(game:HttpGet("https://raw.githubusercontent.com/4lpaca-pin/NeverLose/refs/heads/main/source.luau"))() --require(script:WaitForChild('ModuleScript'));
+local NeverLose = loadstring(game:HttpGet("https://raw.githubusercontent.com/8273952/NeverLose/refs/heads/main/source.luau"))() --require(script:WaitForChild('ModuleScript'));
 
 local Notification = NeverLose:CreateNotification();
 local Logging = NeverLose:CreateLogger();
@@ -409,5 +408,3 @@ while true do task.wait(3)
 	HC:SetRender(true);
 end
 ```
-
-- 4lpacaLoL
